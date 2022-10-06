@@ -7,10 +7,10 @@ document.addEventListener(
     "change",
     (event) => {
         if (event.target.name === "metal") {
- //todoInstead of showing an alert when a metal is chosen, you now need to set the corresponding property of the order builder object in application state.
+ //todo Instead of showing an alert when a metal is chosen, you now need to set the corresponding property of the order builder object in application state.
             setMetal(parseInt(event.target.value))
 
-            //window.alert(`User chose metal ${event.target.value}`)
+            window.alert(`User chose metal ${event.target.value}`)
         }
     }
 )
